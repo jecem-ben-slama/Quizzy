@@ -1,0 +1,88 @@
+import '../../../../Model/question_model.dart';
+
+final List<QuestionModel> historyQuestions = [
+  QuestionModel(
+    "History",
+    "multiple_choice",
+    "medium",
+    "In which year did World War I begin?",
+    "1914",
+    ["1917", "1918", "1919"],
+  ),
+  QuestionModel(
+    "History",
+    "multiple_choice",
+    "medium",
+    "Who was the first President of the United States?",
+    "George Washington",
+    ["Thomas Jefferson", "John Adams", "Abraham Lincoln"],
+  ),
+  QuestionModel(
+    "History",
+    "multiple_choice",
+    "medium",
+    "The ancient Egyptian writing system is known as?",
+    "Hieroglyphics",
+    ["Cuneiform", "Alphabet", "Kanji"],
+  ),
+  QuestionModel(
+    "History",
+    "multiple_choice",
+    "medium",
+    "Which city was the capital of the Roman Empire?",
+    "Rome",
+    ["Athens", "Alexandria", "Byzantium"],
+  ),
+  QuestionModel(
+    "History",
+    "multiple_choice",
+    "medium",
+    "In which year did the famous Boston Tea Party take place?",
+    "1773",
+    ["1765", "1783", "1800"],
+  ),
+  QuestionModel(
+    "History",
+    "multiple_choice",
+    "medium",
+    "Who was the leader of the Soviet Union during World War II?",
+    "Joseph Stalin",
+    ["Vladimir Lenin", "Nikita Khrushchev", "Mikhail Gorbachev"],
+  ),
+  QuestionModel(
+    "History",
+    "multiple_choice",
+    "medium",
+    "The Magna Carta, signed in 1215, was a significant historical document that established?",
+    "The principle that the king was subject to the law",
+    [
+      "The right to vote for all citizens",
+      "Freedom of speech",
+      "The abolition of slavery"
+    ],
+  ),
+  QuestionModel(
+    "History",
+    "multiple_choice",
+    "medium",
+    "Who was the first female Prime Minister of Great Britain?",
+    "Margaret Thatcher",
+    ["Angela Merkel", "Indira Gandhi", "Golda Meir"],
+  ),
+  QuestionModel(
+    "History",
+    "multiple_choice",
+    "medium",
+    "The Emancipation Proclamation, issued by Abraham Lincoln, primarily aimed to?",
+    "Free the slaves in the Confederate states",
+    ["End the Civil War", "Annex new territories", "Promote voting rights"],
+  ),
+  QuestionModel(
+    "History",
+    "multiple_choice",
+    "medium",
+    "In which year did the Berlin Wall fall, leading to the reunification of Germany?",
+    "1989",
+    ["1975", "1991", "2000"],
+  ),
+];

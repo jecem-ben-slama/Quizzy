@@ -1,0 +1,88 @@
+import '../../../../Model/question_model.dart';
+
+final List<QuestionModel> religionsQuestions = [
+  QuestionModel(
+    "World Religions",
+    "multiple_choice",
+    "medium",
+    "Who is the central figure of Christianity and believed by Christians to be the Son of God?",
+    "Jesus Christ",
+    ["Prophet Muhammad", "Buddha", "Krishna"],
+  ),
+  QuestionModel(
+    "World Religions",
+    "multiple_choice",
+    "medium",
+    "In which religion is the Eightfold Path a central concept leading to the cessation of suffering?",
+    "Buddhism",
+    ["Islam", "Hinduism", "Judaism"],
+  ),
+  QuestionModel(
+    "World Religions",
+    "multiple_choice",
+    "medium",
+    "Which holy book is central to the religion of Islam?",
+    "Quran",
+    ["Bible", "Vedas", "Tripitaka"],
+  ),
+  QuestionModel(
+    "World Religions",
+    "multiple_choice",
+    "medium",
+    "What is the ultimate goal (moksha) in Hinduism, the liberation from the cycle of birth and death?",
+    "Moksha",
+    ["Nirvana", "Enlightenment", "Salvation"],
+  ),
+  QuestionModel(
+    "World Religions",
+    "multiple_choice",
+    "medium",
+    "Which religious festival commemorates the exodus of the Israelites from Egypt?",
+    "Passover",
+    ["Diwali", "Eid al-Fitr", "Hanukkah"],
+  ),
+  QuestionModel(
+    "World Religions",
+    "multiple_choice",
+    "medium",
+    "What is the name for the 'Five Pillars' that form the foundation of Islamic practice?",
+    "Shahada, Salah, Zakat, Sawm, Hajj",
+    [
+      "Karma, Dharma, Samsara, Nirvana, Ahimsa",
+      "Ten Commandments",
+      "Four Noble Truths, Eightfold Path"
+    ],
+  ),
+  QuestionModel(
+    "World Religions",
+    "multiple_choice",
+    "medium",
+    "Who is considered the founder of Sikhism and is the first of the ten Sikh Gurus?",
+    "Guru Nanak",
+    ["Guru Gobind Singh", "Guru Ram Das", "Guru Har Rai"],
+  ),
+  QuestionModel(
+    "World Religions",
+    "multiple_choice",
+    "medium",
+    "What is the name of the sacred river in Hinduism, considered to be the embodiment of the goddess Ganga?",
+    "Ganges (Ganga)",
+    ["Nile", "Euphrates", "Jordan"],
+  ),
+  QuestionModel(
+    "World Religions",
+    "multiple_choice",
+    "medium",
+    "In Jainism, what is the term for non-violence and respect for all living beings?",
+    "Ahimsa",
+    ["Nirvana", "Dharma", "Moksha"],
+  ),
+  QuestionModel(
+    "World Religions",
+    "multiple_choice",
+    "medium",
+    "What is the name of the holy text in Zoroastrianism, the religion founded by Zarathustra?",
+    "Avesta",
+    ["Torah", "Vedas", "Bible"],
+  ),
+];
